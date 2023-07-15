@@ -21,7 +21,7 @@ import card_image6 from '@/assets/Income-Tax-&-GST-Representation.jpg'
 function Tax() {
   return (
     <div>
-      <Header image = {header_image} heading = "Consider it done" about = "tax planning, preparing & filing - efficiently" color = "white"/>
+      <Header imageUrl = "https://www.pandr.in/wp-content/uploads/2020/08/tax-banner-2-scaled.jpg" heading = "Consider it done" about = "tax planning, preparing & filing - efficiently" color = "white"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"

@@ -20,7 +20,7 @@ import card_image6 from '../assets/Reporting-Analysis-&-Advisory.jpg'
 function Accounting() {
   return (
     <>
-        <Header image = {header_image} heading = "Accurate & timely bookkeeping" about = "essential for long-term viability of every small business" color = "white"/>
+        <Header imageUrl = "https://www.pandr.in/wp-content/uploads/2020/08/accounting-banner.jpg" heading = "Accurate & timely bookkeeping" about = "essential for long-term viability of every small business" color = "white"/>
         <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"

@@ -3,7 +3,6 @@ import Header from '../components/Header'
 import Elementor_widget_wrap from '../components/Elementor_widget_wrap'
 import Body from '../components/Body'
 import Footer from '../components/Footer'
-import image from '../assets/Home-banner.jpg'
 import image1 from '../assets/We-are-a-full-service-New-age-CA-firm-with-our-office-in-Bangalore-India.jpg'
 import image2 from '../assets/The-choice-of-a-CA-firm-can-make-significant-difference-to-your-business.jpg'
 import image3 from '../assets/Providing-support-you-deserve.jpg'
@@ -13,7 +12,7 @@ import image5 from '../assets/Fostering-knowledge-to-empower-our-clients.jpg'
 function Home_page() {
   return (
     <div>
-      <Header image = {image} heading = "New-age firm of substance" about = "professionalism, knowledge, trust & independence define us" color = "white"/>
+      <Header imageUrl = "https://www.pandr.in/wp-content/uploads/2020/08/about-banner.jpg" heading = "New-age firm of substance" about = "professionalism, knowledge, trust & independence define us" color = "white"/>
       <Elementor_widget_wrap
         heading1 = "Consulting" about1= "Diverse range of our service offerings, domain expertise, experience of partners and engagement team make us ideally suited to provide you with enriching consulting experience"
 

@@ -8,13 +8,14 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg position-sticky position-relative" style= {{"animation": "transitionIn 2s"}}>
-        <div className="container-fluid mx-5 ">
+      <nav className="navbar navbar-expand-lg p-0" style= {{"animation": "transitionIn 2s"}}>
+        <div className="container-fluid mx-4 ">
           <Link className="navbar-brand text-light" href="/Home_page" style={{"fontWeight":"600", "fontSize":"16px"}}>
             <Image
               src = {logo}
               alt = " "
-              style = {{"width": "35%", "height": "15%"}}
+              style = {{"width": "38%", "height": "18%"}}
+              className='p-2 mx-4'
             />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -15,7 +15,7 @@ import Footer from '../components/Footer'
 function Aboutus_page() {
   return (
     <>
-      <Header image = {image} heading = "Growth. Ideas. Solutions." about = "people you can count on, to make it happen" color = "black"/>
+      <Header imageUrl = "https://www.pandr.in/wp-content/uploads/2020/08/home-banner.jpg" heading = "Growth. Ideas. Solutions." about = "people you can count on, to make it happen" color = "black"/>
       <Elementor_widget_wrap about1 = "Consulting" about2 = "Accounting" about3 = "Assurance" about4 = "Tax"/>
       <Body image2 = {image1} heading2 = "We are an independent firm of chartered accountants, with two full time partners and several associates" about2="Prakash & Rajaguru is a full-service partnership firm of chartered accountants, based out of Bangalore, Karnataka, India. We are registered with the Institute of Chartered Accountants of India (ICAI) from April 2010 and have completed 12+ highly successful years in the profession. We work closely, yet independently with our clients, predominantly global companies having their presence in India and Indian startups."
 

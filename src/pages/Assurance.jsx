@@ -21,7 +21,7 @@ import card_image6 from '../assets/Due-Diligence-&-Reporting.jpg'
 function Assurance() {
   return (
     <div>
-      <Header image = {header_image} heading = "Providing assurance you need" about ="with transparency, reliability & independence." color = "black"/>
+      <Header imageUrl = "https://www.pandr.in/wp-content/uploads/2020/08/assurance-banner.jpg" heading = "Providing assurance you need" about ="with transparency, reliability & independence." color = "black"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"

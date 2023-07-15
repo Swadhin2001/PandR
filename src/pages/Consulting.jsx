@@ -21,7 +21,7 @@ import card_image6 from '../assets/Consulting-for-Compliances.jpg'
 function Consulting() {
   return (
     <div>
-      <Header image = {Header_image} heading = "Proactive & realtime consulting" about = "the way forward for empowering successful business" color = "black"/>
+      <Header imageUrl ="	https://www.pandr.in/wp-content/uploads/2020/08/consulting-banner.jpg"  heading = "Proactive & realtime consulting" about = "the way forward for empowering successful business" color = "black"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"

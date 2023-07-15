@@ -1,10 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+*{
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
 .details{
-  position: relative;
-  margin-top:29%;
+  /* position: relative; */
+  margin-top:30%;
   text-align: center;
   font-size: 130%;
   font-weight: bold;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 .elementor_widget_wrap{
   /* padding: 1%;
@@ -14,14 +19,14 @@
   margin-left:7%;
   margin-right:7%; */
   animation: transitionIn 2s;
+  object-fit: contain;
 }
 .elementor_widget_wrap a{
   padding: 2%;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
-  border-left:0.1px solid white;
+  /* border-left:0.1px solid white; */
   text-align: center;
-  font-size: 14px;
   width: 22%;
   text-decoration: none;
 }

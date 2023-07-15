@@ -10,6 +10,7 @@ function Image_left(props) {
                 src = {props.image}
                 alt = ""
                 className='img-fluid'
+                style = {{"width": "100%"}}
               />
             </div>
             <div className="col col-md-6 vertical-center">

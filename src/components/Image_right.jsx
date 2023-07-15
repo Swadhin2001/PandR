@@ -18,8 +18,8 @@ function Image_left(props) {
                 src = {props.image}
                 alt = ""
                 className='img-fluid'
+                style = {{"width": "100%"}}
               />
-              {console.log(props)}
             </div>
         </div>
     </div>
