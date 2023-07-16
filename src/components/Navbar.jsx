@@ -8,17 +8,17 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg p-0" style= {{"animation": "transitionIn 2s"}}>
+      <nav className="navbar navbar-expand-lg " style= {{"animation": "transitionIn 2s"}}>
         <div className="container-fluid mx-4 ">
           <Link className="navbar-brand text-light" href="/Home_page" style={{"fontWeight":"600", "fontSize":"16px"}}>
             <Image
               src = {logo}
               alt = " "
-              style = {{"width": "38%", "height": "18%"}}
+              style = {{"width": "40%", "height": "18%"}}
               className='p-2 mx-4'
             />
           </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="d-flex " id="navbarSupportedContent">
