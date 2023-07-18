@@ -1,7 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
 *{
-  font-family: 'Segoe UI', sans-serif;
-  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .details{
   /* position: relative; */
