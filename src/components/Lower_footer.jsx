@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function Comp5() {
   return (
-    <div className='container p-5'>
+    <div className='container p-4'>
       <div className='row g-0'>
         <motion.div className="footer1 col-4 mx-5" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}>
@@ -30,23 +30,23 @@ function Comp5() {
         <motion.div className="footer2 col-2 mx-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}>
           <h4 style={{ "fontWeight": "700", "fontSize": "18px" }} className='py-2'>Home</h4>
-          <Link href="/Aboutus_page" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>About Us</Link>
-          <Link href="/Our_team" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Our Team</Link>
-          <Link href="/WorkWithUs" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Work With Us</Link>
+          <Link href="/about-us" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>About Us</Link>
+          <Link href="/our-team" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Our Team</Link>
+          <Link href="/work-with-us" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Work With Us</Link>
         </motion.div>
         <motion.div className="footer3 col-2 mx-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}>
           <h4 style={{ "fontWeight": "700", "fontSize": "18px" }} className='py-2'>Services</h4>
-          <Link href="/Consulting" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Consulting</Link>
-          <Link href="/Accounting" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Accounting</Link>
-          <Link href="/Assurance" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Assurance</Link>
-          <Link href="/Tax" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1' >Tax</Link>
+          <Link href="/consulting" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Consulting</Link>
+          <Link href="/accounting" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Accounting</Link>
+          <Link href="/assurance" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Assurance</Link>
+          <Link href="/tax" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1' >Tax</Link>
         </motion.div>
         <motion.div className="footer4 col-2" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}>
           <h4 style={{ "fontWeight": "700", "fontSize": "18px" }} className='py-2'>Others</h4>
-          <Link href="/Disclaimer" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Disclaimer</Link>
-          <Link href="/Privacy_policy" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Privacy Policy</Link>
+          <Link href="/disclaimer" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Disclaimer</Link>
+          <Link href="/privacy-policy" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Privacy Policy</Link>
         </motion.div>
       </div>
     </div>
