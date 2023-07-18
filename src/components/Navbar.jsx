@@ -25,13 +25,13 @@ function Navbar() {
           <div className="d-flex" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item mx-3" >
-                  <Link className="nav-link active text-light " aria-current="page" href='/about-us' style={{"fontWeight":"600", "fontSize":"16px"}}>About Us</Link>
+                  <Link className="nav-link active text-white " aria-current="page" href='/about-us' style={{"fontWeight":"600", "fontSize":"16px"}}>About Us</Link>
               </li>
               <li className="nav-item mx-3">
-                <Link className="nav-link text-light" href="/our-team" style={{"fontWeight":"600", "fontSize":"16px"}}>Our Team</Link>
+                <Link className="nav-link text-white" href="/our-team" style={{"fontWeight":"600", "fontSize":"16px"}}>Our Team</Link>
               </li>
               <div className="dropdown mx-3">
-                <button className="nav-link dropdown-toggle text-light" href="#" id="dropdownMenuButton" type="button" data-mdb-toggle="dropdown" aria-expanded="false" style={{"fontWeight":"600", "fontSize":"16px"}}>
+                <button className="nav-link dropdown-toggle text-white" href="#" id="dropdownMenuButton" type="button" data-mdb-toggle="dropdown" aria-expanded="false" style={{"fontWeight":"600", "fontSize":"16px"}}>
                   Services
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -42,10 +42,10 @@ function Navbar() {
                 </ul>
               </div>
               <li className="nav-item mx-3 ">
-                <Link className="nav-link text-light" href="/work-with-us" style={{"fontWeight":"600", "fontSize":"16px"}}>Work With Us</Link>
+                <Link className="nav-link text-white" href="/work-with-us" style={{"fontWeight":"600", "fontSize":"16px"}}>Work With Us</Link>
               </li>
               <li className="nav-item mx-3">
-                <Link className="nav-link text-light" href="/contact-us" style={{"fontWeight":"600", "fontSize":"16px"}}>Contact Us</Link>
+                <Link className="nav-link text-white" href="/contact-us" style={{"fontWeight":"600", "fontSize":"16px"}}>Contact Us</Link>
               </li>
             </ul>
           </div>

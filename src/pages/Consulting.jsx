@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Header_image from '../assets/consulting-banner.jpg'
 import Elementor_widget_wrap from '../components/Elementor_widget_wrap'
-import Body from '../components/Body'
+import Body_5 from '../components/Body_5'
 import Footer from '../components/Footer'
 import banner_image1 from '../assets/Consulting-for-India-entry-of-global-entities.jpg'
 import banner_image2 from '../assets/Laying-the-foundation-for-successful-business.jpg'
@@ -21,14 +21,14 @@ import card_image6 from '../assets/Consulting-for-Compliances.jpg'
 function Consulting() {
   return (
     <div>
-      <Header imageUrl ="	https://www.pandr.in/wp-content/uploads/2020/08/consulting-banner.jpg"  heading = "Proactive & realtime consulting" about = "the way forward for empowering successful business" color = "black"/>
+      <Header image ={Header_image}  heading = "Proactive & realtime consulting" about = "the way forward for empowering successful business" color = "black"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"
         about3 = "Assurance"
         about4 = "Tax"
       />
-      <Body 
+      <Body_5 
       image1 = {banner_image1} heading1 = "Consulting for India entry of global entities" about1 = "Finding one’s feet in a foreign terrain, many have realized, may not be the simplest phenomenon to counter, especially in a country as diverse and complex as India. With our consulting services, global entities can rely on our expertise and proven analyses to get the answers and solutions they need and ensure they have made the right assessment and a great beginning, towards their foray into India. Experience success even before you have taken the first step for making an effective entry into India, for expanding your global business."
       
       image2 = {banner_image2} heading2 = "Laying the foundation for successful business" about2 = "The decision to start a new business is an exciting one, but as every experienced business owner knows, there’s more to it than developing a product & hoping it sells. An entrepreneur may probably be a “big picture” person with a broad vision who would rather not deal with nitty-gritty details like choosing a business entity, developing business policies, evaluating business risks etc. But these elements are as critical as the product being sold or services being rendered and needs careful consideration and planning"

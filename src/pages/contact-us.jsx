@@ -7,7 +7,7 @@ import header_image from '../assets/contactus-banner.jpg'
 function Contact_us() {
   return (
     <div>
-      <Header imageUrl = "	https://www.pandr.in/wp-content/uploads/2020/07/wwu-header.jpg" heading = "Contact Us" about = "contact us" color = "white"/>
+      <Header image = {header_image} heading = "Contact Us" about = "contact us" color = "white"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"

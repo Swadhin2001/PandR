@@ -1,21 +1,22 @@
 import React from 'react'
 import Header from '../components/Header'
 import Elementor_widget_wrap from '../components/Elementor_widget_wrap'
-import Body from '../components/Body'
 import Header_image from '../assets/work-with-us-banner.jpg'
 import banner_image1 from '../assets/We_welcome_you_to_be_part.jpg'
-import banner_image2 from '../assets/Our mission for our employees is to accelerate their growth.jpg'
-import banner_image3 from '../assets/At PandR, our highly competent articled trainees are the flag bearers of the firm.jpg'
-import banner_image4 from '../assets/At PandR, our culture revolves around team work and open door policy.jpg'
-import banner_image5 from '../assets/Come, join us in our exciting journey.jpg'
+import banner_image2 from '../assets/Our-mission-for-our-employees-is-to-accelerate-their-growth.jpg'
+import banner_image3 from '../assets/At-PandR-our-highly-competent-articled-trainees-are-the-flag-bearers-of-the-firm.jpg'
+import banner_image4 from '../assets/Come-join-us-in-our-exciting-journey.jpg'
+import banner_image5 from '../assets/At-PandR-our-culture-revolves-around-team-work-and-open-door-policy.jpg'
 import Footer from '../components/Footer'
+import Body_5_Left from '@/components/Body_5_Left'
 
 function WorkWithUs() {
   return (
     <div>
-      <Header imageUrl = 'https://www.pandr.in/wp-content/uploads/2020/08/work-banner.jpg' heading = "Come, Join Us." about = "together, lets make a difference" color = "white"/>
+      <Header image = {Header_image} heading = "Come, Join Us." about = "together, lets make a difference" color = "white"/>
       <Elementor_widget_wrap about1 = "Consulting" about2 = "Accounting" about3 = "Assurance" about4 = "Tax"/>
-      <Body image2 = {banner_image1} heading2 = "We welcome you to be part of our success story and to carry the legacy forward" about2 = "Over the years, we have had the opportunity & previlge to work with several global companies from across the world, helping them with consulting, audit and tax services. We have also worked with several domestic entrepreneurs, helping them with consulting, tax and accounting support. We dedicate our success to the holisitc contributions by our committed and dedicated employees. We welcome you to join our robust and energetic team, as we together continue to deliver successful engagements to our global and domestic clients, writing success stories for them, and in the process, creating highly gainful experience and a great learning opportunity to our employees."
+      <Body_5_Left 
+      image2 = {banner_image1} heading2 = "We welcome you to be part of our success story and to carry the legacy forward" about2 = "Over the years, we have had the opportunity & previlge to work with several global companies from across the world, helping them with consulting, audit and tax services. We have also worked with several domestic entrepreneurs, helping them with consulting, tax and accounting support. We dedicate our success to the holisitc contributions by our committed and dedicated employees. We welcome you to join our robust and energetic team, as we together continue to deliver successful engagements to our global and domestic clients, writing success stories for them, and in the process, creating highly gainful experience and a great learning opportunity to our employees."
 
       image3 = {banner_image2} heading3 = "Our mission for our employees is to accelerate their growth: we do this by" about3 = "Nurturing their professional aspirations and enabling career progression through increased responsibilities, greater rewards and enhanced prospects. Fostering knowledge management through a range of practices to identify, acquire, utilize and distribute knowledge to result in confidence enhancement, creativity and innovation; Identify, coach and mentor talent and stimulate higher levels of performance. Cultivating a vibrant & energetic culture to identify and groom leaders and inspire leadership abilities beyond the confines of hierarchies;"
 

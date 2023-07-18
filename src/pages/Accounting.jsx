@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Elementor_widget_wrap from '../components/Elementor_widget_wrap'
 import Footer from '../components/Footer'
-import Body from '../components/Body'
+import Body_5 from '../components/Body_5'
 import header_image from '../assets/accounting-banner.jpg'
 import banner_image1 from '../assets/As-a-small-business-owner-you-have-more-important-things-to-do-than-to-do-your-own-accounting.jpg'
 import banner_image2 from '../assets/Leave-the-accounting-set-up-to-professionals.jpg'
@@ -20,17 +20,17 @@ import card_image6 from '../assets/Reporting-Analysis-&-Advisory.jpg'
 function Accounting() {
   return (
     <>
-        <Header imageUrl = "https://www.pandr.in/wp-content/uploads/2020/08/accounting-banner.jpg" heading = "Accurate & timely bookkeeping" about = "essential for long-term viability of every small business" color = "white"/>
+        <Header image = {header_image} heading = "Accurate & timely bookkeeping" about = "essential for long-term viability of every small business" color = "white"/>
         <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"
         about3 = "Assurance"
         about4 = "Tax"
       />
-      <Body
+      <Body_5
         image1 = {banner_image1} heading1 = "As a small business owner, you have more important things to do than to do your own accounting." about1 = "When you first started out, and money was tight, the do-it-yourself method of accounting might have worked fine. But if you are planning to grow or are already growing, this is not done. You need to do more important things than to keep your own books. Even getting your admin staff to maintain books will not work because you will still end up spending substanital time and effort montoring and guiding. Professional, accurate & timely bookkeeping is essential to your company’s long-term viability for internal & external reasons."
 
-        image2 = {banner_image2} heading2 = "Leave the accounting set-up to professionals" about2 = "If you’re just starting a business, we’ll set up accounting, reporting and systems that make it easy for you to keep track of where your money is going. If you’ve been in business for a while, but need help cleaning up your books, we’ll help streamline your bookkeeping systems and set up a system of checks & balances. If you need setting up standard operating procedures to build an accounting system that provides accurate & timely financial information, we’ll help set it up."
+        image2 = {banner_image2} heading2 = "Leave the accounting set-up to professionals" about2 = "If youre just starting a business, well set up accounting, reporting and systems that make it easy for you to keep track of where your money is going. If youve been in business for a while, but need help cleaning up your books, well help streamline your bookkeeping systems and set up a system of checks & balances. If you need setting up standard operating procedures to build an accounting system that provides accurate & timely financial information, well help set it up."
 
         image3 = {banner_image3} heading3 = "Accounting is just the start point. Clear and relevant financial reporting is the objective." about3 = "We are more than just accountants who record the events that took place. We may do the accounting for you or provide support and advise the internal accounting department, but we always remain focussed on the ultimate goal: providing clear and useful financial information so you can make the right decisions. We ensure that all your accounting obligations are met on time and in a correct manner. However, our assignment doesn’t stop there. We give you the figures but we make sure they mean something too. We do more than just keeping records, we analyse, report and advise."
 

@@ -13,7 +13,7 @@ function Image_left(props) {
                 <Link href={`${props.link}`} className='text-decoration-none text-dark'>{props.linkText}</Link>
               </div>
             </div>
-            <div className="col col-md-6" style = {{"backgroundImage": `url(${props.image})`, "backgroundPosition":"center center", "backgroundRepeat":"no-repeat", "backgroundSize": "cover", "height": "500px"}}>
+            <div className="col col-md-6" style = {{"backgroundImage": `url(${props.image.src})`, "backgroundPosition":"center center", "backgroundRepeat":"no-repeat", "backgroundSize": "cover", "height": "500px"}}>
             </div>
         </div>
     </div>

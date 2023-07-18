@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 function Header(props) {
   return (
-    <div className='navbarBody' style = {{"backgroundImage" : `url(${props.imageUrl})`, "backgroundSize":"cover", "backgroundPosition":"bottom center"}}>
+    <div className='navbarBody' style = {{"backgroundImage" : `url(${props.image.src})`, "backgroundSize":"cover", "backgroundPosition":"bottom center"}}>
       {/* <Image
         src = {props.image}
         alt = ""

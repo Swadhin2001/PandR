@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 function Our_team() {
   return (
     <div>
-      <Header imageUrl = "	https://www.pandr.in/wp-content/uploads/2020/08/team-banner.jpg" heading = "Providing support you deserve" about = "leading from the front to deliver quality & expertise" color = "white"/>
+      <Header image = {header_image} heading = "Providing support you deserve" about = "leading from the front to deliver quality & expertise" color = "white"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"

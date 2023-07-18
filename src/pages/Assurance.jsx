@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Elementor_widget_wrap from '../components/Elementor_widget_wrap'
-import Body from '../components/Body'
+import Body_5 from '../components/Body_5'
 import Footer from '../components/Footer'
 import header_image from '../assets/assurance-banner.jpg'
 import banner_image1 from '../assets/Audits-provide-assurance-to-stakeholders.jpg'
@@ -21,14 +21,14 @@ import card_image6 from '../assets/Due-Diligence-&-Reporting.jpg'
 function Assurance() {
   return (
     <div>
-      <Header imageUrl = "https://www.pandr.in/wp-content/uploads/2020/08/assurance-banner.jpg" heading = "Providing assurance you need" about ="with transparency, reliability & independence." color = "black"/>
+      <Header image = {header_image} heading = "Providing assurance you need" about ="with transparency, reliability & independence." color = "black"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"
         about3 = "Assurance"
         about4 = "Tax"
       />
-      <Body
+      <Body_5
         image1 = {banner_image1} heading1 = "Audits provide assurance to stakeholders" about1 = "Most small and medium businessess are run by a small board of directors or a management team on behalf of the shareholders who can be remote with little involvement in the day to day operations of the business. An independent review of the financial statements by an ‘independent external auditor’ can provide transparency and visibility to the shareholders that the company is being run within their best interests and can highlight any issues that have occurred which may not have been brought to their attention. The audit provides them the much needed assurance that all’s well with their business."
 
         image2 = {banner_image2} heading2 = "An external audit provides credibility" about2 = "Having your financial statements verified by an external auditor can lead to more credibility in the business marketplace than those that have not. Should you be seeking to raise finance or sell your business in the future, providing audited accounts gives security that your accounts are free from material error or malpractice, making you more likely to be successful in achieving your goals. So, even if you ae not required to mandatory get your accounts audited, it is preferable to opt for voluntary audit, which lends more credibility to your business"

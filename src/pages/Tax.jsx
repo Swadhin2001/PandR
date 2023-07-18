@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
 import Elementor_widget_wrap from '../components/Elementor_widget_wrap'
-import Body from '@/components/Body'
 import Footer from '@/components/Footer'
 import header_image from '../assets/tax-banner.jpg'
 import banner_image1 from '../assets/We-analyse-the-tax-implications-of-events-and-decisions-and-we-advise-proactively.jpg'
@@ -17,18 +16,19 @@ import card_image3 from '@/assets/Transfer-Pricing-&-International-Tax.jpg'
 import card_image4 from '@/assets/GST-Planning-and-Support.jpg'
 import card_image5 from '@/assets/Audit-under-Income-Tax-&-GST.jpg'
 import card_image6 from '@/assets/Income-Tax-&-GST-Representation.jpg'
+import Body_6 from '@/components/Body_6'
 
 function Tax() {
   return (
     <div>
-      <Header imageUrl = "https://www.pandr.in/wp-content/uploads/2020/08/tax-banner-2-scaled.jpg" heading = "Consider it done" about = "tax planning, preparing & filing - efficiently" color = "white"/>
+      <Header image = {header_image} heading = "Consider it done" about = "tax planning, preparing & filing - efficiently" color = "white"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"
         about3 = "Assurance"
         about4 = "Tax"
       />
-      <Body
+      <Body_6
         image1 = {banner_image1} heading1 = "We analyse the tax implications of events and decisions, and we advise proactively" about1 = "Income tax laws in our country are complicated. Compliance with tax laws can be overwhelming. With so many important details to consider, it’s easy to make an error or omit something which could end up as a penalty, fine, or unwanted problem. We support you with tax planning, preparation and filing needs while remaining compliant with the continuously changing tax laws and regulations. The business economics of the company and the strategic choices of the business owner are the main focus, but the tax context is never absent."
 
         image2 = {banner_image2} heading2 = "Government has reduced tax burden on small traders and businessmen" about2 = "In case of small traders, manufacturers, retailers and other business doing turnover of upto Rs 2 Crore per annum, adopting the provisions of section 44AD, income is computed on presumptive basis at the rate of 8% of the turnover or gross receipts of the eligible business for the year or 6% of the turnover or gross receipts of the eligible business for the year, if turnover/gross receipt is received by an account payee cheque or an account payee bank draft or use of electronic clearing system through a bank account. Such tax payers need not maintain books of accounts."
