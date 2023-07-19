@@ -1,5 +1,4 @@
 import React from 'react'
-// import Image from 'next/image'
 import Navbar from './Navbar'
 
 function Header(props) {
@@ -7,8 +6,8 @@ function Header(props) {
     <div className='navbarBody' style = {{"backgroundImage" : `url(${props.image.src})`}}>
      <Navbar/>
       <div className="details" style = {{"color": `${props.color}`}}>
-        <h1 style = {{"fontWeight":"600", "fontSize": "48px"}} >{props.heading}</h1>
-        <p style = {{"fontWeight":"600", "fontSize": "24px"}}>{props.about}</p>
+        <h1 className='header-heading'>{props.heading}</h1>
+        <p style = {{"fontWeight":"600", "fontSize": "24px"}} className='header-about'>{props.about}</p>
       </div>
     </div>
   )

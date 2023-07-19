@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 function Image_left(props) {
   return (
-    <div className='container'>
-        <div className="row g-0">
+    <div className='container-xl'>
+        <div className="row ">
             <div className="col col-md-6 body-right-image-about" >
               <div className='mx-3 p-2'>
                 <h4 style = {{"fontWeight":"600", "fontSize": "24px"}} className='pb-3' >{props.heading}</h4>

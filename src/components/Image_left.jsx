@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 function Image_left(props) {
   return (
-    <div className='container '>
-        <div className="row g-0">
+    <div className='container'>
+        <div className="row ">
             <div className="col col-md-6 body-image-left" style = {{"backgroundImage": `url(${props.image.src})`}}>
             </div>
             <div className="col col-md-6 body-left-image-about" >
