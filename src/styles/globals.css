@@ -6,30 +6,38 @@
   margin-top:29%;
   text-align: center;
   font-weight: bold;
-  padding-bottom: 1%;
+  padding-bottom: 1%; 
+  line-height: 1.25em;
+  text-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
 }
-.elementor_widget_wrap{
-  /* padding: 1%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left:7%;
-  margin-right:7%; */
+.elementor-widget-wrap{
   animation: transitionIn 2s;
   object-fit: contain;
 }
-.elementor_widget_wrap a{
-  padding: 2%;
+.navbarBody{
+  background-size: cover;
+  background-position: center center;
+}
+.elementor-widget-wrap a{
+  padding: 30px 30px 30px 30px;
   background-color: rgb(0, 0, 0);
   color: white;
-  border-left:0.1px solid white;
+  /* border-left:0.1px solid white; */
   text-align: center;
-  width: 22%;
+  /* width: 22%; */
   text-decoration: none;
 }
-.elementor_widget_wrap a:hover{
-  background-color: rgb(32, 32, 32);
+.elementor-container:hover{
+  background-color: rgb(43, 43, 43);
   cursor: pointer;
+}
+.elementor-container h2{
+  line-height: 1.35em;
+  letter-spacing: 0.2px;
+}
+.elementor-container p{
+  line-height: 1.35em;
+  letter-spacing: 0.2px;
 }
 .div-left,.div-right{
   display: flex;
@@ -129,4 +137,24 @@
 }
 .conainer-1200{
   max-width: 1200px;
+}
+.body-image-left{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.body-left-image-about{
+  display: flex;
+  align-items: center;
+}
+.body-image-right{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.body-right-image-about{
+  display: flex;
+  align-items: center;
 }

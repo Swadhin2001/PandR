@@ -3,24 +3,26 @@ import Link from 'next/link'
 
 function Elementor_widget_wrap(props) {
   return (
-      <div className='elementor_widget_wrap d-flex justify-content-center  mx-4 align-middle'>
-          <Link href = "/consulting" >
-            <h4 className='text-light' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading1}</h4>
-            <p className='text-light py-2' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about1}</p>
+    <div className="container elementor-widget-wrap">
+      <div className='row elementor-container'>
+          <Link href = "/consulting" className='col  elementor-container'>
+            <h2 className='text-light m-0' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading1}</h2>
+            <p className='text-light m-0' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about1}</p>
           </Link>
-          <Link href = '/accounting'>
-            <h4 className='text-light' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading2}</h4>
-            <p className='text-light py-2' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about2}</p>
+          <Link href = '/accounting' className='col  elementor-container'>
+            <h2 className='text-light m-0' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading2}</h2>
+            <p className='text-light m-0' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about2}</p>
           </Link>
-          <Link href = '/assurance'>
-            <h4 className='text-light' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading3}</h4>
-            <p className='text-light py-2' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about3}</p>
+          <Link href = '/assurance' className='col  elementor-container'>
+            <h2 className='text-light m-0' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading3}</h2>
+            <p className='text-light m-0' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about3}</p>
           </Link>
-          <Link href = '/tax' >
-            <h4 className='text-light' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading4}</h4>
-            <p className='text-light py-2' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about4}</p>
+          <Link href = '/tax' className='col elementor-container'>
+            <h2 className='text-light m-0' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading4}</h2>
+            <p className='text-light m-0' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about4}</p>
           </Link>
       </div>
+    </div>
   )
 }
 
