@@ -35,10 +35,10 @@ function Navbar() {
                   Services
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><Link className="dropdown-item text-dark" href="/consulting">Consulting</Link></li>
-                  <li><Link className="dropdown-item text-dark" href="/accounting">Accounting</Link></li>
-                  <li><Link className="dropdown-item text-dark" href="/assurance">Assurance</Link></li>
-                  <li><Link className="dropdown-item text-dark" href="/tax">Tax</Link></li>
+                  <li><Link className="dropdown-item text-dark" href= '/consulting'>Consulting</Link></li>
+                  <li><Link className="dropdown-item text-dark" href = '/accounting'>Accounting</Link></li>
+                  <li><Link className="dropdown-item text-dark" href = '/assurance'>Assurance</Link></li>
+                  <li><Link className="dropdown-item text-dark" href = '/tax'>Tax</Link></li>
                 </ul>
               </div>
               <li className="nav-item mx-3 ">

@@ -1,6 +1,9 @@
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.container-md{
+  max-width: 1140px;
+}
 .details{
   /* position: relative; */
   margin-top:29%;
@@ -26,6 +29,9 @@
   text-align: center;
   /* width: 22%; */
   text-decoration: none;
+}
+.elementor-container{
+  border-left: 0.1px solid rgb(109, 109, 109);
 }
 .elementor-container:hover{
   background-color: rgb(43, 43, 43);
