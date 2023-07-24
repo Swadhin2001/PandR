@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import Image_left from './Image_left'
 import Image_right from './Image_right'
 
+
 function Home_Body(props) {
   return (
     <div className='mainBody'>
