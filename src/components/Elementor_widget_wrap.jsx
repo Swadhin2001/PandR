@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 function Elementor_widget_wrap(props) {
   return (
-    <div className="container elementor-widget-wrap">
-      <div className="container-1140">
+    <div className="container elementor-widget-wrap ">
+      <div className="container-1140 mobile-space">
         <div className='row elementor-container'>
             <Link href = "/consulting" className='col-md-3  elementor-container'>
               <h2 className='text-light pb-1' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading1}</h2>

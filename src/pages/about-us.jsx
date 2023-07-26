@@ -12,9 +12,10 @@ import image7 from '../assets/Integrity-and-trust-matters-in-our-practice.jpg'
 import Footer from '../components/Footer'
 import Body_7_Left from '@/components/Body_7_Left'
 
+
 function Aboutus_page() {
   return (
-    <>
+    <body>
       <Header image = {image} heading = "Growth. Ideas. Solutions." about = "people you can count on, to make it happen" color = "black"/>
       <Elementor_widget_wrap about1 = "Consulting" about2 = "Accounting" about3 = "Assurance" about4 = "Tax"/>
       <Body_7_Left
@@ -33,7 +34,7 @@ function Aboutus_page() {
       image8 = {image7} heading8 = "Integrity and trust matters in our practice!" about8 = "Since we might be dealing with your personal and business finances and tax, you need to have confidence that we have the highest level of integrity and are trustworthy.  As chartered accountants, we are bound by code of ethics to uphold a set of professional principles, endeavouring to always put our clients’ interests above our own. Practising means demonstrating a commitment to maintaining and developing professional standards, so you know your financial interests are always put first."/>
 
       <Footer/>
-    </>
+    </body>
   );
 }
 
