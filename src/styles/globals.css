@@ -233,7 +233,10 @@
   }
   .mobile-version-footer {
     padding: 30px 0px 30px 0px;
-}
+  }
+  .details-mobile{
+    padding: 20px 20px 20px 20px;
+  }
 }
 body{
   overflow-x:hidden;

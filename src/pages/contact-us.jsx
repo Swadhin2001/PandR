@@ -6,7 +6,7 @@ import header_image from '../assets/contactus-banner.jpg'
 
 function Contact_us() {
   return (
-    <div>
+    <body>
       <Header image = {header_image} heading = "Contact Us" about = "contact us" color = "white"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
@@ -15,7 +15,7 @@ function Contact_us() {
         about4 = "Tax"
       />
       <Footer/>
-    </div>
+    </body>
   )
 }
 

@@ -20,7 +20,7 @@ import card_image6 from '../assets/Due-Diligence-&-Reporting.jpg'
 
 function Assurance() {
   return (
-    <div>
+    <body>
       <Header image = {header_image} heading = "Providing assurance you need" about ="with transparency, reliability & independence." color = "black"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
@@ -49,7 +49,7 @@ function Assurance() {
       image6 = {card_image6} heading6 = "Due Diligence & Reporting" about6 = "Due diligence is a comprehensive appraisal of a business undertaken by a prospective buyer, especially to establish its assets and liabilities and evaluate its commercial potential. It is a process to confirm all relevant facts and financial information. Due diligence is taken up at the instance of a potential buyer and completed before a deal closes to provide the buyer with an assurance of what they’re getting."
       />
       <Footer/>
-    </div>
+    </body>
   )
 }
 

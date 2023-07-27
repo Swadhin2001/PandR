@@ -12,7 +12,7 @@ import Body_5_Left from '@/components/Body_5_Left'
 
 function WorkWithUs() {
   return (
-    <div>
+    <body>
       <Header image = {Header_image} heading = "Come, Join Us." about = "together, lets make a difference" color = "white"/>
       <Elementor_widget_wrap about1 = "Consulting" about2 = "Accounting" about3 = "Assurance" about4 = "Tax"/>
       <Body_5_Left 
@@ -27,7 +27,7 @@ function WorkWithUs() {
       image6 = {banner_image5} heading6 = "Come, join us in our exciting journey." about6 = "All our engagements with global or domestic clients provide you with high quality professional experience. You work alongside professionals and learn while you deliver your services on these live engagements, providing you unlimited enriched experience and expertise. We are very clear and specific in our goals – we strive to providing highly skilled consulting engagements, well supported by our assurance, accounting and tax support to our global and domestic clients. If this sounds good enough and if you are as ambitious and passionate as us with our stated mission, come, join us in our exciting journey."
       />
       <Footer/>
-    </div>
+    </body>
   )
 }
 

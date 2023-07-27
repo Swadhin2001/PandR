@@ -14,7 +14,7 @@ import banner_image5 from '../assets/Fostering-knowledge-to-empower-our-clients.
 
 function Home_page() {
   return (
-    <div>
+    <>
       <Header image = {header_image} heading = "New-age firm of substance" about = "professionalism, knowledge, trust & independence define us" color = "white"/>
       <Elementor_widget_wrap
         heading1 = "Consulting" about1= "Diverse range of our service offerings, domain expertise, experience of partners and engagement team make us ideally suited to provide you with enriching consulting experience"
@@ -36,7 +36,7 @@ function Home_page() {
         image5= {banner_image5} heading5 = "Fostering knowledge to empower our clients"
         about5 = "Doing business, especially in a land as complex and diversified as India, with a federal structure necessitates our clients to be equipped with a basic understanding & knowledge of various laws of the country & state, which impact their business. It is our endeavour to constantly study & monitor the changes in law and update our clients, to prepare them better to embrace inevitabe change and insulate their business from impending risks and exposure."/>
       <Footer/>
-    </div>
+    </>
   )
 }
 

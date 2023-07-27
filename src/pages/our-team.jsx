@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 
 function Our_team() {
   return (
-    <div>
+    <body>
       <Header image = {header_image} heading = "Providing support you deserve" about = "leading from the front to deliver quality & expertise" color = "white"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
@@ -15,7 +15,7 @@ function Our_team() {
         about4 = "Tax"
       />
       <Footer/>
-    </div>
+    </body>
   )
 }
 

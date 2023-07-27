@@ -1,44 +1,39 @@
-import 'bootstrap/dist/css/bootstrap.css'
+import React from 'react'
 
-
-function Navbar() {
+function Navbar_new() {
   return (
-    <nav className="navbar navbar-expand-lg position-sticky position-relative" style= {{"animation": "transitionIn 2s"}}>
-      <div className="container-fluid mx-5 ">
-        <a className="navbar-brand text-light" href="#">Navbar</a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+    <div>
+      <nav class="navbar navbar-expand-lg justify-content-between">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div className="d-flex" id="navbarNav">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-            <li className="nav-item mx-3" >
-              <a className="nav-link active text-light" aria-current="page" href="#">About Us</a>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li className="nav-item mx-3">
-              <a className="nav-link text-light" href="#">Our Team</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
             </li>
-            <li className="nav-item dropdown mx-3">
-              <a className="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item text-light" href="#">Action</a></li>
-                <li><a className="dropdown-item text-light" href="#">Another action</a></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item text-light" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li className="nav-item mx-3 ">
-              <a className="nav-link text-light" href="#">Work With Us</a>
-            </li>
-            <li className="nav-item mx-3">
-              <a className="nav-link text-light" href="#">Contact Us</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   )
 }
 
-export default Navbar
+export default Navbar_new
