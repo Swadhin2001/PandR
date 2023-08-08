@@ -19,7 +19,7 @@ import card_image6 from '../assets/Reporting-Analysis-&-Advisory.jpg'
 
 function Accounting() {
   return (
-    <body>
+    <>
         <Header image = {header_image} heading = "Accurate & timely bookkeeping" about = "essential for long-term viability of every small business" color = "white"/>
         <Elementor_widget_wrap
         about1 = "Consulting"
@@ -53,7 +53,7 @@ function Accounting() {
       image6 = {card_image6} heading6 = "Reporting, Analysis & Advisory" about6 = "Receiving accurate, reliable and timely financial information is the lifeline of modern business. We collate and review critical financial and business information to present them in the form of management reports, for effective business decision making. We analyse the reports for you & advise suitably"
       />
       <Footer/>
-    </body>
+    </>
   )
 }
 

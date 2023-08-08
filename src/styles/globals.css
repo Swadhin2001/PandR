@@ -100,11 +100,11 @@
   color: white;
   /* padding: 4%; */
 }
-.footer1, .footer2, .footer3 , .footer4{
+.footer1, .footer2{
   /* display: flex; */
   flex-direction: column;
 }
-.footer2 a,.footer3 a, .footer4 a{
+.footer2 a{
   text-decoration: none;
   color: white;
 }
@@ -141,7 +141,7 @@
   background-color: #262626;
   color: white;
 }
-.footer2,.footer3,.footer4{
+.footer2{
   display: flex;
 }
 .conainer-1200{
@@ -210,6 +210,24 @@
   background-color: white;
   color: black;
 }
+.elementor-container-cards-h5{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+}
+.elementor-container-cards-p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+.card-div{
+  padding: 25px;
+}
+.elementor-container-heading{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+}
 @media only screen and (max-width: 600px) {
   .row-odd {
     flex-direction: column-reverse;
@@ -238,6 +256,11 @@
     padding: 20px 20px 20px 20px;
   }
 }
-body{
-  overflow-x:hidden;
+.container-1000{
+  max-width: 900px;
+}
+.card-on-hover:hover{
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
 }

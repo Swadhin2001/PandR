@@ -20,7 +20,7 @@ import Body_6 from '@/components/Body_6'
 
 function Tax() {
   return (
-    <body>
+    <>
       <Header image = {header_image} heading = "Consider it done" about = "tax planning, preparing & filing - efficiently" color = "white"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
@@ -51,7 +51,7 @@ function Tax() {
       image6 = {card_image6} heading6 = "Income Tax & GST Representation" about6 = "When you recieve notice from Income tax or GST authorities, you would need professional help to draft suitable response. We help you resolve your tax issues & put an end to the misery or stress that the tax authorities can put you through notices, hearings, summons or assessments. We are qualified to represent you professionally."
       />
       <Footer/>
-    </body>
+    </>
   )
 }
 

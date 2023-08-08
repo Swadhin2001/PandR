@@ -20,7 +20,7 @@ import card_image6 from '../assets/Consulting-for-Compliances.jpg'
 
 function Consulting() {
   return (
-    <body>
+    <>
       <Header image ={Header_image}  heading = "Proactive & realtime consulting" about = "the way forward for empowering successful business" color = "black"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
@@ -54,7 +54,7 @@ function Consulting() {
       image6 = {card_image6} heading6 = "Consulting for Compliances" about6 = "Business changes come as waves, gathering shape, gaining energy and momentum and  crash against companies that come in their path. Those companies that anticipate and respond quickly to these waves of change  rise with the tide; those that dont are often crushed on impact. In these days of rapid economic reform and changes to laws that could impact your business, it is critical to be advised appropriately of impending changes."
       />      
       <Footer/>
-    </body>
+    </>
   )
 }
 

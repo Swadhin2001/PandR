@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../assets/new-white-logo.png'
 
-function Navbar() {
+function Navbar(props) {
 
   return (
     <>
@@ -25,27 +25,27 @@ function Navbar() {
           <div className="d-flex" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item mx-3" >
-                  <Link className="nav-link active text-white " aria-current="page" href='/about-us' style={{"fontWeight":"600", "fontSize":"16px"}}>About Us</Link>
+                  <Link className="nav-link active text-white " aria-current="page" href='/about-us' style={{"fontWeight":"600", "fontSize":"16px","color":`${props.color}`}}>About Us</Link>
               </li>
               <li className="nav-item mx-3">
-                <Link className="nav-link text-white" href="/our-team" style={{"fontWeight":"600", "fontSize":"16px"}}>Our Team</Link>
+                <Link className="nav-link text-white" href="/our-team" style={{"fontWeight":"600", "fontSize":"16px", "color":`${props.color}`}}>Our Team</Link>
               </li>
               <div className="dropdown mx-3">
-                <button className="nav-link dropdown-toggle text-white" href="#" id="dropdownMenuButton" type="button" data-mdb-toggle="dropdown" aria-expanded="false" style={{"fontWeight":"600", "fontSize":"16px"}}>
+                <button className="nav-link dropdown-toggle text-white" href="#" id="dropdownMenuButton" type="button" data-mdb-toggle="dropdown" aria-expanded="false" style={{"fontWeight":"600", "fontSize":"16px", "color":`${props.color}`}}>
                   Services
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><Link className="dropdown-item text-dark" href= '/consulting'>Consulting</Link></li>
-                  <li><Link className="dropdown-item text-dark" href = '/accounting'>Accounting</Link></li>
-                  <li><Link className="dropdown-item text-dark" href = '/assurance'>Assurance</Link></li>
-                  <li><Link className="dropdown-item text-dark" href = '/tax'>Tax</Link></li>
+                  <li><Link className="dropdown-item text-dark" href= '/consulting' style = {{"color":`${props.color}`}}>Consulting</Link></li>
+                  <li><Link className="dropdown-item text-dark" href = '/accounting' style = {{"color":`${props.color}`}} >Accounting</Link></li>
+                  <li><Link className="dropdown-item text-dark" href = '/assurance' style = {{"color":`${props.color}`}}>Assurance</Link></li>
+                  <li><Link className="dropdown-item text-dark" href = '/tax' style = {{"color":`${props.color}`}}>Tax</Link></li>
                 </ul>
               </div>
               <li className="nav-item mx-3 ">
-                <Link className="nav-link text-white" href="/work-with-us" style={{"fontWeight":"600", "fontSize":"16px"}}>Work With Us</Link>
+                <Link className="nav-link text-white" href="/work-with-us" style={{"fontWeight":"600", "fontSize":"16px","color":`${props.color}`}}>Work With Us</Link>
               </li>
               <li className="nav-item mx-3">
-                <Link className="nav-link text-white" href="/contact-us" style={{"fontWeight":"600", "fontSize":"16px"}}>Contact Us</Link>
+                <Link className="nav-link text-white" href="/contact-us" style={{"fontWeight":"600", "fontSize":"16px","color":`${props.color}`}}>Contact Us</Link>
               </li>
             </ul>
           </div>
