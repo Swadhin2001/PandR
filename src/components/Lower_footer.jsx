@@ -42,11 +42,11 @@ function Comp5() {
           <Link href="/assurance" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Assurance</Link>
           <Link href="/tax" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1' >Tax</Link>
         </motion.div>
-        <motion.div className="footer2 col-md-2" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
+        <motion.div className="footer2 col-md-2 mx-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}>
           <h4 style={{ "fontWeight": "700", "fontSize": "18px" }} className='py-2'>Others</h4>
           <Link href="/disclaimer" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Disclaimer</Link>
-          <Link href="/privacy-policy" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Privacy Policy</Link>
+          <Link href="/policy" style={{ "fontWeight": "400", "fontSize": "14px" }} className='py-1'>Privacy Policy</Link>
         </motion.div>
       </div>
     </div>

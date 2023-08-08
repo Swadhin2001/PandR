@@ -9,7 +9,7 @@ function Header(props) {
      {/* <Navbar_new></Navbar_new> */}
       <div className="details details-mobile" style = {{"color": `${props.color}`}}>
         <h1 className='header-heading'>{props.heading}</h1>
-        <p style = {{"fontWeight":"600", "fontSize": "24px"}} className='header-about'>{props.about}</p>
+        <p className='header-about'>{props.about}</p>
       </div>
     </div>
   )
