@@ -9,7 +9,7 @@ function Image_left(props) {
             <div className="col-md-6 body-left-image-about about-mobile-space" >
               <div className='mx-4 p-2'>
                 <h4  className='pb-3 body-image-h4'>{props.heading}</h4>
-                <p  className='pb-2 body-image-p' >{props.about}</p>
+                <p  className='pb-2 body-image-p'>{props.about}</p>
               </div>
             </div>
         </div>
