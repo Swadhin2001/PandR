@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '@/components/Navbar'
+import Navbar_light from '@/components/Navbar_light'
 import logo from '@/assets/black-logo.png'
 import Footer from '@/components/Footer'
 
 function Disclaimer() {
   return (
     <>
-      {/* <Navbar color = "black" logo = {logo}/> */}
+      <Navbar_light></Navbar_light>
       <div className="container my-5">
         <h1 className='disclaimer-h1'>Disclaimer</h1>
         <br />

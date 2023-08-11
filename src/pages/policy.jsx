@@ -1,8 +1,10 @@
 import React from 'react'
 import Footer from '@/components/Footer'
+import Navbar_light from '@/components/Navbar_light'
 function privacy_policy() {
   return (
     <>
+    <Navbar_light></Navbar_light>
       <div className="container my-5">
         <h1 className='disclaimer-h1'>Privacy Policy - updated August 2020</h1>
         <br />
