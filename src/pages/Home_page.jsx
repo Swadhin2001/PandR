@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Header from '../components/Header'
 import Elementor_widget_wrap from '../components/Elementor_widget_wrap'
 import Footer from '../components/Footer'
@@ -12,8 +12,8 @@ import banner_image5 from '../assets/Fostering-knowledge-to-empower-our-clients.
 
 
 
-function Home_page() {  
-   return (
+function Home_page() { 
+  return (
     <>
       <Header image = {header_image} heading = "New-age firm of substance" about = "professionalism, knowledge, trust & independence define us" color = "white"/>
       <Elementor_widget_wrap
@@ -31,11 +31,8 @@ function Home_page() {
 
        image3 = {banner_image3} heading3 = "Providing support you deserve" about3 = "We create value for our clients through our consultative approach, backed by great attitdue and premium support. You have worked hard to get where you are. You deserve a firm that works as hard as you, to help you achieve more success, assurance & growth. Our abilities to visualise and plan ahead, backed by precise execution is our key differentiator and our clients appreciate us for this quality. Through our hands on consultative approach, we can truly empower your business and drive it towards success"
 
-        image4 = {banner_image4} heading4 = "Professionalism, knowledge, trust & independence define us" about4 = "These four words represent our underlying values and define our identity. We live these values each day. We are highly professional in our approach, work & attitude. We have expert knowledge in our domain & service offerings. You can absolutely trust our words & actions every time. We work closely with our clients, but with high degree of independence."
-        // 
-        //  
-        //{["These four words represent our underlying values and define our identity. We live these values each day.", <br/>,<br />, "We are highly ", <b>professional</b>, " in our approach, work & attitude. We have expert",<b> knowledge</b>, " in our domain & service offerings. You can absolutely ", <b>trust</b>,  " our words & actions every time.", <br/>,<br />, "We work closely with our clients, but with high degree of ", <b>independence</b>]}
-
+        image4 = {banner_image4} heading4 = "Professionalism, knowledge, trust & independence define us" about4 ={<Fragment>These four words represent our underlying values and define our identity. We live these values each day. <br/><br /> We are highly  <b>professional</b>  in our approach, work & attitude. We have expert<b> knowledge</b>  in our domain & service offerings. You can absolutely <b>trust</b>   our words & actions every time. <br/><br /> We work closely with our clients, but with high degree of  <b>independence</b></Fragment>}
+       
         image5= {banner_image5} heading5 = "Fostering knowledge to empower our clients"
         about5 = "Doing business, especially in a land as complex and diversified as India, with a federal structure necessitates our clients to be equipped with a basic understanding & knowledge of various laws of the country & state, which impact their business. It is our endeavour to constantly study & monitor the changes in law and update our clients, to prepare them better to embrace inevitabe change and insulate their business from impending risks and exposure."/>
       <Footer/>
