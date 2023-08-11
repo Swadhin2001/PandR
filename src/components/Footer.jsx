@@ -12,6 +12,7 @@ function Footer() {
             <UpperFooter></UpperFooter>
           </motion.div>
           <Lower_footer></Lower_footer>
+          <p className='text-white text-center footer-p'>Copyright (c) 2023 Prakash and Rajaguru, Bangalore, India. All Rights Reserved.</p>
         </div>
     </div>  
     </>

@@ -9,7 +9,7 @@ import header_image from '../assets/contactus-banner.jpg'
 function Contact_us() {
   return (
     <>
-      <Header image = {header_image} heading = "Contact Us" about = "contact us" color = "white"/>
+      <Header image = {header_image} heading = "Contact Us" about = "" color = "white"/>
       <Elementor_widget_wrap
         about1 = "Consulting"
         about2 = "Accounting"

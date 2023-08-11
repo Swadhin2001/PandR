@@ -275,6 +275,26 @@
 .privacypol-ul{
   margin-left: 50px;
 }
+.current-pos-h4{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+}
+.current-pos-p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+.curr-pos-heading{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+}
+.footer-p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
 @media only screen and (max-width: 600px) {
   .row-odd {
     flex-direction: column-reverse;

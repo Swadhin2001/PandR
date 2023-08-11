@@ -1,12 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Navbar_new from './Navbar_new'
 
 function Header(props) {
   return (
     <div className='navbarBody' style = {{"backgroundImage" : `url(${props.image.src})`}}>
      <Navbar/>
-     {/* <Navbar_new></Navbar_new> */}
       <div className="details details-mobile" style = {{"color": `${props.color}`}}>
         <h1 className='header-heading'>{props.heading}</h1>
         <p className='header-about'>{props.about}</p>
