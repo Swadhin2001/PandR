@@ -16,17 +16,13 @@ import card_image3 from '../assets/Compensation-&-Benefits.jpg'
 import card_image4 from '../assets/Periodic-Compliances.jpg'
 import card_image5 from '../assets/Corporate-&-Regulatory.jpg'
 import card_image6 from '../assets/Reporting-Analysis-&-Advisory.jpg'
+import Black_cards from '@/components/Black_cards'
 
 function Accounting() {
   return (
     <>
         <Header image = {header_image} heading = "Accurate & timely bookkeeping" about = "essential for long-term viability of every small business" color = "white"/>
-        <Elementor_widget_wrap
-        about1 = "Consulting"
-        about2 = "Accounting"
-        about3 = "Assurance"
-        about4 = "Tax"
-      />
+        <Black_cards/>
       <Body_5
         image1 = {banner_image1} heading1 = "As a small business owner, you have more important things to do than to do your own accounting." about1 = "When you first started out, and money was tight, the do-it-yourself method of accounting might have worked fine. But if you are planning to grow or are already growing, this is not done. You need to do more important things than to keep your own books. Even getting your admin staff to maintain books will not work because you will still end up spending substanital time and effort montoring and guiding. Professional, accurate & timely bookkeeping is essential to your company’s long-term viability for internal & external reasons."
 

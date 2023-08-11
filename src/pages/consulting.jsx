@@ -16,18 +16,14 @@ import card_image3 from '../assets/Consulting-for-Small-Business.jpg'
 import card_image4 from '../assets/Consulting-for-Top-Management.jpg'
 import card_image5 from '../assets/Consulting-for-Merger-&-Acquisition.jpg'
 import card_image6 from '../assets/Consulting-for-Compliances.jpg'
+import Black_cards from '@/components/Black_cards'
 
 
 function Consulting() {
   return (
     <>
       <Header image ={Header_image}  heading = "Proactive & realtime consulting" about = "the way forward for empowering successful business" color = "black"/>
-      <Elementor_widget_wrap
-        about1 = "Consulting"
-        about2 = "Accounting"
-        about3 = "Assurance"
-        about4 = "Tax"
-      />
+      <Black_cards/>
       <Body_5 
       image1 = {banner_image1} heading1 = "Consulting for India entry of global entities" about1 = "Finding one’s feet in a foreign terrain, many have realized, may not be the simplest phenomenon to counter, especially in a country as diverse and complex as India. With our consulting services, global entities can rely on our expertise and proven analyses to get the answers and solutions they need and ensure they have made the right assessment and a great beginning, towards their foray into India. Experience success even before you have taken the first step for making an effective entry into India, for expanding your global business."
       

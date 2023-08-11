@@ -10,12 +10,13 @@ import banner_image5 from '../assets/At-PandR-our-culture-revolves-around-team-w
 import Footer from '../components/Footer'
 import Body_5_Left from '@/components/Body_5_Left'
 import Our_current_open_positions from '@/components/Our_current_open_positions'
+import Black_cards from '@/components/Black_cards'
 
 function WorkWithUs() {
   return (
     <>
       <Header image = {Header_image} heading = "Come, Join Us." about = "together, lets make a difference" color = "white"/>
-      <Elementor_widget_wrap about1 = "Consulting" about2 = "Accounting" about3 = "Assurance" about4 = "Tax"/>
+      <Black_cards/>
       <Body_5_Left 
       image2 = {banner_image1} heading2 = "We welcome you to be part of our success story and to carry the legacy forward" about2 = {<Fragment>Over the years, we have had the opportunity & previlge to work with several global companies from across the world, helping them with consulting, audit and tax services. We have also worked with several domestic entrepreneurs, helping them with consulting, tax and accounting support. We dedicate our success to the holisitc contributions by our committed and dedicated employees. <br /> <br />We welcome you to join our robust and energetic team, as we together continue to deliver successful engagements to our global and domestic clients, writing success stories for them, and in the process, creating highly gainful experience and a great learning opportunity to our employees.</Fragment>}
 

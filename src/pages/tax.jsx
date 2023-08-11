@@ -17,17 +17,13 @@ import card_image4 from '@/assets/GST-Planning-and-Support.jpg'
 import card_image5 from '@/assets/Audit-under-Income-Tax-&-GST.jpg'
 import card_image6 from '@/assets/Income-Tax-&-GST-Representation.jpg'
 import Body_6 from '@/components/Body_6'
+import Black_cards from '@/components/Black_cards'
 
 function Tax() {
   return (
     <>
       <Header image = {header_image} heading = "Consider it done" about = "tax planning, preparing & filing - efficiently" color = "white"/>
-      <Elementor_widget_wrap
-        about1 = "Consulting"
-        about2 = "Accounting"
-        about3 = "Assurance"
-        about4 = "Tax"
-      />
+      <Black_cards/>
       <Body_6
         image1 = {banner_image1} heading1 = "We analyse the tax implications of events and decisions, and we advise proactively" about1 = "Income tax laws in our country are complicated. Compliance with tax laws can be overwhelming. With so many important details to consider, it’s easy to make an error or omit something which could end up as a penalty, fine, or unwanted problem. We support you with tax planning, preparation and filing needs while remaining compliant with the continuously changing tax laws and regulations. The business economics of the company and the strategic choices of the business owner are the main focus, but the tax context is never absent."
 

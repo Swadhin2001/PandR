@@ -16,18 +16,14 @@ import card_image3 from '../assets/Internal-Audit.jpg'
 import card_image4 from '../assets/Operational-Audit.jpg'
 import card_image5 from '../assets/Limited-Assurance-&-Risk-Review.jpg'
 import card_image6 from '../assets/Due-Diligence-&-Reporting.jpg'
+import Black_cards from '@/components/Black_cards'
 
 
 function Assurance() {
   return (
     <>
       <Header image = {header_image} heading = "Providing assurance you need" about ="with transparency, reliability & independence." color = "black"/>
-      <Elementor_widget_wrap
-        about1 = "Consulting"
-        about2 = "Accounting"
-        about3 = "Assurance"
-        about4 = "Tax"
-      />
+      <Black_cards/>
       <Body_5
         image1 = {banner_image1} heading1 = "Audits provide assurance to stakeholders" about1 = "Most small and medium businessess are run by a small board of directors or a management team on behalf of the shareholders who can be remote with little involvement in the day to day operations of the business. An independent review of the financial statements by an ‘independent external auditor’ can provide transparency and visibility to the shareholders that the company is being run within their best interests and can highlight any issues that have occurred which may not have been brought to their attention. The audit provides them the much needed assurance that all’s well with their business."
 
