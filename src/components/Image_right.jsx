@@ -2,7 +2,7 @@ import React from 'react'
 
 function Image_left(props) {
   return (
-    <div className='container-xl'>
+    <div className='container-1140'>
         <div className="row row-odd">
             <div className="col-md-6 body-right-image-about about-mobile-space" >
               <div className='image-about'>

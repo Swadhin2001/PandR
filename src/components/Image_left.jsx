@@ -3,7 +3,7 @@ import React from 'react'
 function Image_left(props) {
   return (
     <>
-      <div className='container-xl'>
+      <div className='container-1140'>
           <div className="row" >
               <div className="col-md-6 body-image-left" style = {{"backgroundImage": `url(${props.image.src})`}}>
               </div>
