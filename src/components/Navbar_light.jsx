@@ -24,13 +24,13 @@ function Navbar(props) {
           </button>
           <div className="d-flex" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li className="nav-item mx-3" >
+              <li className="nav-item  nav-padding" >
                   <Link className="nav-link active " aria-current="page" href='/about-us' style={{"fontWeight":"600", "fontSize":"16px","color":`${props.color}`}}>About Us</Link>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item  nav-padding">
                 <Link className="nav-link text-black" href="/our-team" style={{"fontWeight":"600", "fontSize":"16px", "color":`${props.color}`}}>Our Team</Link>
               </li>
-              <div className="dropdown mx-3">
+              <div className="dropdown  nav-padding">
                 <button className="nav-link dropdown-toggle text-black" href="#" id="dropdownMenuButton" type="button" data-mdb-toggle="dropdown" aria-expanded="false" style={{"fontWeight":"600", "fontSize":"16px", "color":`${props.color}`}}>
                   Services
                 </button>
@@ -41,10 +41,10 @@ function Navbar(props) {
                   <li><Link className="dropdown-item text-dark" href = '/tax' style = {{"color":`${props.color}`}}>Tax</Link></li>
                 </ul>
               </div>
-              <li className="nav-item mx-3 ">
+              <li className="nav-item  nav-padding">
                 <Link className="nav-link text-black" href="/work-with-us" style={{"fontWeight":"600", "fontSize":"16px","color":`${props.color}`}}>Work With Us</Link>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item  nav-padding">
                 <Link className="nav-link text-black" href="/contact-us" style={{"fontWeight":"600", "fontSize":"16px","color":`${props.color}`}}>Contact Us</Link>
               </li>
             </ul>

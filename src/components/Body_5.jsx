@@ -8,7 +8,7 @@ function Home_Body(props) {
   return (
     <div className="d-flex justify-content-center" >
 
-      <div className='mainBody container-1140'>
+      <div className='mainBody container-1200'>
           <motion.div initial = {{opacity: 0, y: -20}} whileInView={{opacity: 1, y : 0}} 
     transition={{ duration: 1}}>
             <Image_right image = {props.image1} heading = {props.heading1} about = {props.about1} link = {props.link} linkText = {props.linkText}/>
