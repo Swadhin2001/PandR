@@ -4,8 +4,10 @@
 .container-md {
   max-width: 1140px;
 }
+.container-980{
+  max-width: 980px;
+}
 .details {
-  /* position: relative; */
   margin-top: 29%;
   text-align: center;
   font-weight: bold;
@@ -324,6 +326,10 @@
   text-align: center;
   text-decoration: none;
 }
+.black-cards-container {
+  animation: transitionIn 2s;
+  object-fit: contain;
+}
 .nav-padding{
   padding: 13px 20px;
 }
@@ -366,6 +372,9 @@
     line-height: 28px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .black-mobile-space{
+    padding: 15px 15px 15px 15px;
   }
   * {
     overflow-x: hidden;

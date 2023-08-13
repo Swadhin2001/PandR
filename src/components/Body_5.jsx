@@ -7,7 +7,6 @@ import Image_right from './Image_right'
 function Home_Body(props) {
   return (
     <div className="d-flex justify-content-center" >
-
       <div className='mainBody container-1200'>
           <motion.div initial = {{opacity: 0, y: -20}} whileInView={{opacity: 1, y : 0}} 
     transition={{ duration: 1}}>
