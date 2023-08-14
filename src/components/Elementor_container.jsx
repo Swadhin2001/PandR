@@ -8,14 +8,14 @@ function Elementor_container(props) {
     <div className='my-5' >
       <motion.h2 className='text-center m-1 elementor-container-heading' initial = {{opacity: 0, y: -20}} whileInView={{opacity: 1, y : 0}} 
   transition={{ duration: 1}}>{props.heading}</motion.h2>
-      <div className="container-1200 d-flex justify-content-center">
+      <div className="d-flex justify-content-center p-0">
         <div className="container-1000 ">
-            <div className=" row">
-                <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
+            <div className=" row ">
+                <motion.div className="col-md-4 " initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}>
                     <Card image = {props.image1} heading = {props.heading1} about = {props.about1}/>
                 </motion.div>
-                <motion.div className="col-md-4 " initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
+                <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}>
                     <Card image = {props.image2} heading = {props.heading2} about = {props.about2}/>
                 </motion.div>
@@ -24,7 +24,7 @@ function Elementor_container(props) {
                     <Card image = {props.image3} heading = {props.heading3} about = {props.about3}/>
                 </motion.div>
             </div>
-            <div className="row">
+            <div className="row ">
                 <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}>
                     <Card image = {props.image4} heading = {props.heading4} about = {props.about4}/>
