@@ -380,6 +380,9 @@
     overflow-x: hidden;
   }
 }
+.container-1200{
+  max-width: 1200px;
+}
 .container-1000 {
   max-width: 900px;
 }

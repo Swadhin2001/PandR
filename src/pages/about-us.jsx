@@ -19,7 +19,6 @@ function Aboutus_page() {
   return (
     <>
       <Header image = {image} heading = "Growth. Ideas. Solutions." about = "people you can count on, to make it happen" color = "black"/>
-      {/* <Elementor_widget_wrap about1 = "Consulting" about2 = "Accounting" about3 = "Assurance" about4 = "Tax"/> */}
       <Black_cards/>
       <Body_7_Left
       image2 = {image1} heading2 = "We are an independent firm of chartered accountants, with two full time partners and several associates" about2={<Fragment>Prakash & Rajaguru is a full-service partnership firm of chartered accountants, based out of Bangalore, Karnataka, India. We are registered with the Institute of Chartered Accountants of India (ICAI) from April 2010 and have completed 12+ highly successful years in the profession. We work closely, yet independently with our clients, predominantly global companies having their presence in India and Indian startups. <br /> <br /> The firm is owned, managed and led by – <br /><br /> &nbsp;&nbsp; 1. Senior Partner CA Rajaguru CG <br />&nbsp;&nbsp; 2. Senior Partner CA AR Pai</Fragment>}

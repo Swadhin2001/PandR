@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function UpperFooter() {
   return (
-    <div className='container-1200'>
+    <div className='container-fluid p-0'>
       <div className="row ">
         <div className="col-md-4 footer-image" style={{ "backgroundImage": `url(${image.src})` }}>
         </div>

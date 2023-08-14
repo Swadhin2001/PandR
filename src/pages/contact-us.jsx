@@ -13,7 +13,7 @@ function Contact_us() {
       <Header image = {header_image} heading = "Contact Us" about = "" color = "white"/>
       <Black_cards/>
       <div className="my-5">
-        <div className="container-1200 d-flex justify-content-center">
+        <div className="container d-flex justify-content-center">
           <div className="container-1140">
             <div className="row">
               <div className="col-md-6 my-3">
