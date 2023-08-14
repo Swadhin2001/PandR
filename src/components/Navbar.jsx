@@ -12,7 +12,7 @@ function Navbar(props) {
       <div className="container-1200">
         <nav className="navbar navbar-expand-lg " style= {{"animation": "transitionIn 2s"}}>
           <div className="container-fluid p-0 ">
-            <Link className="navbar-brand text-light logo" href="/Home_page" style={{"fontWeight":"600", "fontSize":"16px"}}>
+            <Link className="navbar-brand text-light logo" href="/" style={{"fontWeight":"600", "fontSize":"16px"}}>
               <Image
                 src = {logo}
                 alt = " "
