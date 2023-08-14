@@ -166,6 +166,9 @@
 .image-about {
   padding: 0px 40px 0px 60px;
 }
+.image-about-right {
+  padding: 0px 40px 0px 40px;
+}
 .body-image-right {
   background-position: center center;
   background-repeat: no-repeat;
