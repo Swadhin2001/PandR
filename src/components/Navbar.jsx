@@ -78,21 +78,21 @@ function Navbar() {
                 </li>
 
                 <li className="nav-item dropdown nav-padding">
-                  <a className="nav-link dropdown-toggle p-0 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ "fontWeight": "600", "fontSize": "16px" }}>
+                  <a className="nav-link dropdown-toggle p-0 text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ "fontWeight": "600", "fontSize": "16px" }}>
                     Services
                   </a>
-                  <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item text-dark" href='/consulting' >Consulting</Link></li>
-                    <li><Link className="dropdown-item text-dark" href='/accounting'  >Accounting</Link></li>
-                    <li><Link className="dropdown-item text-dark" href='/assurance' >Assurance</Link></li>
-                    <li><Link className="dropdown-item text-dark" href='/tax' >Tax</Link></li>
+                  <ul className="dropdown-menu rounded-0 dropdown-items p-0">
+                    <li><Link className="dropdown-item text-dark dropdown-hover" href='/consulting' >Consulting</Link></li>
+                    <li><Link className="dropdown-item text-dark dropdown-hover" href='/accounting'  >Accounting</Link></li>
+                    <li><Link className="dropdown-item text-dark dropdown-hover" href='/assurance' >Assurance</Link></li>
+                    <li><Link className="dropdown-item text-dark dropdown-hover" href='/tax' >Tax</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item nav-padding">
                   <Link className="nav-link text-white p-0" href="/work-with-us" style={{ "fontWeight": "600", "fontSize": "16px" }}>Work With Us</Link>
                 </li>
                 <li className="nav-item nav-padding">
-                  <Link className="nav-link text-white p-0" href="/work-with-us" style={{ "fontWeight": "600", "fontSize": "16px" }}>Contact Us</Link>
+                  <Link className="nav-link text-white p-0" href="/contact-us" style={{ "fontWeight": "600", "fontSize": "16px" }}>Contact Us</Link>
                 </li>
               </ul>
             </div>

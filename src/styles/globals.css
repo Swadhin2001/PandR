@@ -1,11 +1,18 @@
-* {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+@font-face{
+  font-family: 'Segoe_UI';
+  src: url(../fonts/Segoe-UI.ttf);
+  src: url(../fonts/Segoe-UI-Bold-Italic.ttf);
+  src: url(../fonts/Segoe-UI-Bold.ttf);
+  src: url(../fonts/segoe.ttf);
+}
+*{
+  font-family:Segoe_UI ;
 }
 .container-md {
   max-width: 1140px;
 }
 .container-980{
-  max-width: 980px;
+  width: 980px;
 }
 .details {
   /* margin-top: 29%; */
@@ -415,4 +422,16 @@
   background-color: #000000;
   color: white;
   cursor: pointer;
+}
+.dropdown-hover{
+  height: 46px;
+  width: 130px;
+}
+.dropdown-item:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown-items{
+ min-width: 10em;
+ max-width: 1000px;
 }
