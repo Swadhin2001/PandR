@@ -22,6 +22,7 @@
 .navbarBody {
   background-size: cover;
   background-position: bottom;
+  min-height: 351px;
 }
 .elementor-widget-wrap a {
   padding: 30px 30px 30px 30px;
