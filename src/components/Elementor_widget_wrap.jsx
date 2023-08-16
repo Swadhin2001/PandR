@@ -3,11 +3,10 @@ import Link from 'next/link'
 
 function Elementor_widget_wrap(props) {
   return (
-    <div className="d-flex justify-content-center">
-
-      <div className="container-1140 elementor-widget-wrap mobile-space">
-        <div className='row elementor-container'>
-            <Link href = "/consulting" className='col-md-3  elementor-container'>
+    <div className="d-flex justify-content-center black-card">
+      <div className="container elementor-widget-wrap mobile-space p-0">
+        <div className='row g-0' >
+            <Link href = "/consulting" className='col-md-3  elementor-container' id= "consulting-card">
               <h2 className='text-light pb-1' style = {{"fontWeight":"600", "fontSize": "18px"}}>{props.heading1}</h2>
               <p className='text-light m-0' style = {{"fontWeight":"400", "fontSize": "15px"}}>{props.about1}</p>
             </Link>

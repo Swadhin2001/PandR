@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 function Black_cards() {
   return (
-    <div className=" d-flex justify-content-center black-mobile-space d-flex justify-content-center"  >
+    <div className=" d-flex justify-content-center black-mobile-space"  >
       <div className="container black-cards px-5 mx-5">
-          <div className='row elementor-container '>
+          <div className='row elementor-container g-0'>
               <Link href = "/consulting" className='col-md-3 black-cards-container'>
                 <p className='text-center m-0' style = {{"fontSize": "16px", "fontWeight": "400", "lineHeight": "20px"}}>Consulting</p>
               </Link>
