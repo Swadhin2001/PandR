@@ -14,6 +14,11 @@
 .container-980{
   width: 980px;
 }
+.card-img-top {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+}
 .details {
   text-align: center;
   font-weight: bold;
