@@ -11,14 +11,20 @@ import banner_image2 from '../assets/The-choice-of-a-CA-firm-can-make-significan
 import banner_image3 from '../assets/Providing-support-you-deserve.jpg'
 import banner_image4 from '../assets/Professionalism-knowledge-trust-&-independence-define-us.jpg'
 import banner_image5 from '../assets/Fostering-knowledge-to-empower-our-clients.jpg'
-
-
+import Navbar from '@/components/Navbar'
+import logo_light from '@/assets/PandRLogoWhite.svg'
+import logo_dark from '@/assets/PandRLogo.svg'
+import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  
+
   return (
-    <>
+    <div  >
+      
       <Header image = {header_image} heading = "New-age firm of substance" about = "professionalism, knowledge, trust & independence define us" color = "white"/>
       <Elementor_widget_wrap
         heading1 = "Consulting" about1= "Diverse range of our service offerings, domain expertise, experience of partners and engagement team make us ideally suited to provide you with enriching consulting experience"
@@ -40,6 +46,6 @@ export default function Home() {
         image5= {banner_image5} heading5 = "Fostering knowledge to empower our clients"
         about5 = "Doing business, especially in a land as complex and diversified as India, with a federal structure necessitates our clients to be equipped with a basic understanding & knowledge of various laws of the country & state, which impact their business. It is our endeavour to constantly study & monitor the changes in law and update our clients, to prepare them better to embrace inevitabe change and insulate their business from impending risks and exposure."/>
       <Footer/>
-    </>
+    </div>
   )
 }

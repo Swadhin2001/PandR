@@ -19,6 +19,9 @@
   height: 175px;
   object-fit: cover;
 }
+.elementor-container-margin{
+  margin-bottom: 80px;
+}
 .details {
   text-align: center;
   font-weight: bold;
@@ -379,6 +382,7 @@
 .nav-elements{
   position: absolute;
   right:0px;
+  margin: auto;
 }
 @media only screen and (max-width: 600px) {
   .row-odd {

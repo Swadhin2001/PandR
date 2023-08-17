@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Card(props) {
     return (
-        <div className="card  rounded-0  border border-secondary" style={{"width": "auto", "height" : "510px"}}>
+        <div className="card  rounded-0  border border-secondary" style={{"width": "auto", "height" : "560px"}}>
             <Image src={props.image} className="card-img-top rounded-0 " alt="..."/>
                 <div className="card-body text-center card-hover card-div ">
                     <h5 className="card-title p-1 elementor-container-cards-h5">{props.heading}</h5>

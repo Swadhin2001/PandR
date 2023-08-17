@@ -14,7 +14,7 @@ import { motion } from 'framer-motion'
 function Our_team_body() {
   return (
     <>
-    <motion.h4 className='text-center m-5' style = {{"fontWeight": "700", "fontSize": "26px", "lineHeight": "35px"}} initial = {{opacity: 0, y: -20}} whileInView={{opacity: 1, y : 0}} transition={{ duration: 1}}>Leadership Team @ PandR</motion.h4>
+    <motion.h4 className='text-center m-5 pt-5' style = {{"fontWeight": "700", "fontSize": "26px", "lineHeight": "35px"}} initial = {{opacity: 0, y: -20}} whileInView={{opacity: 1, y : 0}} transition={{ duration: 1}}>Leadership Team @ PandR</motion.h4>
     <div className='container d-flex justify-content-center my-5'>
         <div className="container-1000">
             <div className="row">
