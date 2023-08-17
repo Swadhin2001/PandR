@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '../assets/new-white-logo.png'
+import logo from '../assets/P&R_Logo_White.svg'
 
 function Navbar() {
 
@@ -82,10 +82,10 @@ function Navbar() {
                     Services
                   </a>
                   <ul className="dropdown-menu rounded-0 dropdown-items p-0" >
-                    <li><Link className="dropdown-item text-dark m-0" href='/consulting' >Consulting</Link></li>
-                    <li><Link className="dropdown-item text-dark m-0" href='/accounting'  >Accounting</Link></li>
-                    <li><Link className="dropdown-item text-dark m-0" href='/assurance' >Assurance</Link></li>
-                    <li><Link className="dropdown-item text-dark m-0" href='/tax' >Tax</Link></li>
+                    <li><Link className="dropdown-item text-black m-0" href='/consulting' >Consulting</Link></li>
+                    <li><Link className="dropdown-item text-black m-0" href='/accounting'  >Accounting</Link></li>
+                    <li><Link className="dropdown-item text-black m-0" href='/assurance' >Assurance</Link></li>
+                    <li><Link className="dropdown-item text-black m-0" href='/tax' >Tax</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item nav-padding">
