@@ -337,6 +337,9 @@
 .nav-padding{
   padding: 13px 20px;
 }
+.nav-padding-last{
+  padding: 13px 16px;
+}
 .herosection {
   background-size: cover;
   background-position: bottom;
@@ -380,9 +383,7 @@
   padding: 10px 20px 10px 30px;
 }
 .nav-elements{
-  position: absolute;
-  right:0px;
-  margin: auto;
+  padding-left: 388px;
 }
 @media only screen and (max-width: 600px) {
   .row-odd {

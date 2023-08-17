@@ -70,7 +70,7 @@ function Navbar() {
                 <li className="nav-item nav-padding">
                   <Link className={`nav-link text-${color} p-0`} href="/work-with-us" style={{ "fontWeight": "600", "fontSize": "16px" }}>Work With Us</Link>
                 </li>
-                <li className="nav-item nav-padding">
+                <li className="nav-item nav-padding-last">
                   <Link className={`nav-link text-${color} p-0`} href="/contact-us" style={{ "fontWeight": "600", "fontSize": "16px" }}>Contact Us</Link>
                 </li>
               </ul>
