@@ -81,11 +81,11 @@ function Navbar() {
                   <a className="nav-link dropdown-toggle p-0 text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ "fontWeight": "600", "fontSize": "16px" }}>
                     Services
                   </a>
-                  <ul className="dropdown-menu rounded-0 dropdown-items p-0">
-                    <li><Link className="dropdown-item text-dark dropdown-hover" href='/consulting' >Consulting</Link></li>
-                    <li><Link className="dropdown-item text-dark dropdown-hover" href='/accounting'  >Accounting</Link></li>
-                    <li><Link className="dropdown-item text-dark dropdown-hover" href='/assurance' >Assurance</Link></li>
-                    <li><Link className="dropdown-item text-dark dropdown-hover" href='/tax' >Tax</Link></li>
+                  <ul className="dropdown-menu rounded-0 dropdown-items p-0" >
+                    <li><Link className="dropdown-item text-dark m-0" href='/consulting' >Consulting</Link></li>
+                    <li><Link className="dropdown-item text-dark m-0" href='/accounting'  >Accounting</Link></li>
+                    <li><Link className="dropdown-item text-dark m-0" href='/assurance' >Assurance</Link></li>
+                    <li><Link className="dropdown-item text-dark m-0" href='/tax' >Tax</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item nav-padding">

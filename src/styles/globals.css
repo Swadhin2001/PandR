@@ -392,19 +392,6 @@
   .details-mobile {
     padding: 30px 30px 30px 30px;
   }
-  /* .header-heading {
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 48px;
-    text-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
-  } */
-  /* .header-about {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 28px;
-    padding-left: 30px;
-    padding-right: 30px;
-  } */
   .black-mobile-space{
     padding: 15px 15px 15px 15px;
   }
@@ -423,15 +410,13 @@
   color: white;
   cursor: pointer;
 }
-.dropdown-hover{
-  height: 46px;
-  width: 130px;
+.dropdown-menu a:hover{
+  background: black;
 }
 .dropdown-item:hover{
-  background-color: black;
-  color: white;
+  color: white !important;
 }
-.dropdown-items{
- min-width: 10em;
- max-width: 1000px;
+.dropdown-menu a{
+  height: auto;
+  padding: 10px 20px 10px 30px;
 }
