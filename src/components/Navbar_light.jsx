@@ -8,8 +8,9 @@ function Navbar() {
 
   return (
     <>
-    <nav className="navbar navbar-expand-lg custom-nav-class ">
-        <div className="container-fluid ">
+    <div className="sticky-top border-bottom border-black bg-white d-flex justify-content-center">
+    <nav className="navbar navbar-expand-lg custom-nav-class">
+        <div className="container-1200 d-flex ">
           <Link className="navbar-brand" href = "/">
             <Image
               src={logo}
@@ -17,7 +18,7 @@ function Navbar() {
               className='p-0 logo-class'
             />
           </Link>
-          <div className="d-flex" >
+          <div className="nav-elements" >
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -52,7 +53,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <hr className='m-0 p-0'/>
+    </div>
     </>
   )
 }
