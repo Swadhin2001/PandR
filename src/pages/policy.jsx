@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '@/components/Footer'
 import Navbar_light from '@/components/Navbar_light'
+
 function privacy_policy() {
   return (
     <>

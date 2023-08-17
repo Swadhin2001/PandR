@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar_light from '@/components/Navbar_light'
-import logo from '@/assets/black-logo.png'
 import Footer from '@/components/Footer'
 
 function Disclaimer() {
