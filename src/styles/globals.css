@@ -421,3 +421,7 @@
   height: auto;
   padding: 10px 20px 10px 30px;
 }
+.nav-elements{
+  position: absolute;
+  right:0px;
+}
