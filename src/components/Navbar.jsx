@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '@/assets/P&R_Logo_White.svg'
+import logo from '@/assets/PandRLogoWhite.svg'
 
 function Navbar() {
 
