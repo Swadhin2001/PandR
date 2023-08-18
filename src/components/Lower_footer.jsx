@@ -11,7 +11,7 @@ function Comp5() {
           <h4 style={{ "fontWeight": "700", "fontSize": "18px" }}>Contact Us</h4>
           <p className='py-3' style={{ "fontWeight": "400", "fontSize": "14px" }}>
             <strong>
-              Prakash & Rajaguru
+              Prakash & Rajaguru LLP
               <br/>
             </strong>
             185/7, 2nd Floor, Chandra Plaza
