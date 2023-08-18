@@ -5,6 +5,9 @@
   src: url(../fonts/Segoe-UI-Bold.ttf);
   src: url(../fonts/segoe.ttf);
 }
+body{
+  overflow-x: hidden;
+}
 *{
   font-family:Segoe_UI ;
 }
