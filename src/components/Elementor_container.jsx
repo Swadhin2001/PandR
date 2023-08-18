@@ -12,30 +12,30 @@ function Elementor_container(props) {
         <div className="container-1000 ">
             <div className=" row pt-4" >
                 <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.5 }}>
-                    <Card image = {props.image1} heading = {props.heading1} about = {props.about1}/>
+          transition={{ duration: 0.6, delay: 0.5 }} >
+                    <Card image = {props.image1} heading = {props.heading1} about = {props.about1} height = {props.height1}/>
                 </motion.div>
                 <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}>
-                    <Card image = {props.image2} heading = {props.heading2} about = {props.about2}/>
+                    <Card image = {props.image2} heading = {props.heading2} about = {props.about2} height = {props.height2}/>
                 </motion.div>
                 <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1 }}>
-                    <Card image = {props.image3} heading = {props.heading3} about = {props.about3}/>
+                    <Card image = {props.image3} heading = {props.heading3} about = {props.about3} height = {props.height3}/>
                 </motion.div>
             </div>
             <div className="row pt-4">
                 <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}>
-                    <Card image = {props.image4} heading = {props.heading4} about = {props.about4}/>
+                    <Card image = {props.image4} heading = {props.heading4} about = {props.about4} height = {props.height4}/>
                 </motion.div>
                 <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}>
-                    <Card image = {props.image5} heading = {props.heading5} about = {props.about5}/>
+                    <Card image = {props.image5} heading = {props.heading5} about = {props.about5} height = {props.height5}/>
                 </motion.div>
                 <motion.div className="col-md-4" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1 }}>
-                    <Card image = {props.image6} heading = {props.heading6} about = {props.about6}/>
+                    <Card image = {props.image6} heading = {props.heading6} about = {props.about6} height = {props.height6}/>
                 </motion.div>
             </div>
           </div>

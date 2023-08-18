@@ -36,17 +36,17 @@ function Accounting() {
       />
       <Elementor_container 
       heading = "Our Services under Accounting Practice"
-      image1 = {card_image1} heading1 = "Accounting Set-up" about1 = "We help define your accounting objectives, policies & principles, set-up your accounting system & chart of accounts, implement & customise suitable accounting software, so you are able to obtain accurate & timely financial information from the system"
+      image1 = {card_image1} heading1 = "Accounting Set-up" about1 = "We help define your accounting objectives, policies & principles, set-up your accounting system & chart of accounts, implement & customise suitable accounting software, so you are able to obtain accurate & timely financial information from the system" height1= "432px"
 
-      image2 = {card_image2} heading2 = "Bookkeeping & Accounting" about2 = "We work with you to introduce a system of tracking and collating ongoing expenses and business inputs, in the course of performing bookkeeping services. We maintain books of accounts regularly, so you get business critical financial information consistently."
+      image2 = {card_image2} heading2 = "Bookkeeping & Accounting" about2 = "We work with you to introduce a system of tracking and collating ongoing expenses and business inputs, in the course of performing bookkeeping services. We maintain books of accounts regularly, so you get business critical financial information consistently." height2= "432px"
 
-      image3 = {card_image3} heading3 = "Compensation & Benefits" about3 = "We manage compensation & benefits of your employees, manage their business reimbursements, compute payroll taxes, issue payslips, handle payroll compliances – PT, PF, ESI, TDS with a high degree of professionalism & with strict confidentiality"
+      image3 = {card_image3} heading3 = "Compensation & Benefits" about3 = "We manage compensation & benefits of your employees, manage their business reimbursements, compute payroll taxes, issue payslips, handle payroll compliances – PT, PF, ESI, TDS with a high degree of professionalism & with strict confidentiality" height3= "432px"
 
-      image4 = {card_image4} heading4 = "Periodic Compliances" about4 = "Compliance obligations in India are quite complicated with several computations, filing & remittances monthly, quarterly and yearly. Provisions of law specific to your business need detailed understanding, expertise & experience to handle, which our compliance team will professionally manage for you"
+      image4 = {card_image4} heading4 = "Periodic Compliances" about4 = "Compliance obligations in India are quite complicated with several computations, filing & remittances monthly, quarterly and yearly. Provisions of law specific to your business need detailed understanding, expertise & experience to handle, which our compliance team will professionally manage for you" height4= "476px"
 
-      image5 = {card_image5} heading5 = "Corporate & Regulatory" about5 = "Ongoing compliance with Ministry of Corporate Affairs regulations and Indian Companies Act are mandatory for private limited company. Our Company Secretary will ensure total compliance with these regulations including managing periodic filings, handling board meetings etc"
+      image5 = {card_image5} heading5 = "Corporate & Regulatory" about5 = "Ongoing compliance with Ministry of Corporate Affairs regulations and Indian Companies Act are mandatory for private limited company. Our Company Secretary will ensure total compliance with these regulations including managing periodic filings, handling board meetings etc" height5= "476px"
 
-      image6 = {card_image6} heading6 = "Reporting, Analysis & Advisory" about6 = "Receiving accurate, reliable and timely financial information is the lifeline of modern business. We collate and review critical financial and business information to present them in the form of management reports, for effective business decision making. We analyse the reports for you & advise suitably"
+      image6 = {card_image6} heading6 = "Reporting, Analysis & Advisory" about6 = "Receiving accurate, reliable and timely financial information is the lifeline of modern business. We collate and review critical financial and business information to present them in the form of management reports, for effective business decision making. We analyse the reports for you & advise suitably" height6= "476px"
       />
       <Footer/>
     </>
