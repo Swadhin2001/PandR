@@ -195,11 +195,19 @@
 .container-1140 {
   max-width: 1140px;
 }
-.body-image-h4 {
+.body-image-h4-left {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   color: #000000;
+  padding-right: 60px;
+}
+.body-image-h4-right {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  padding-right: 50px;
 }
 .body-image-p {
   font-weight: 400;
@@ -385,6 +393,13 @@
 }
 .nav-elements{
   padding-left: 388px;
+}
+.our-curr-pos{
+  width: 555px;
+}
+.form-focus:focus
+{
+  border: 1px solid rgb(223, 223, 223) !important;
 }
 @media only screen and (max-width: 600px) {
   .row-odd {

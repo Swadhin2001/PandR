@@ -5,7 +5,7 @@ import Image_right from './Image_right'
 
 function Body_5_Left(props) {
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center pt-4">
 
       <div className='mainBody'>
         <motion.div initial = {{opacity: 0, y: -20}} whileInView={{opacity: 1, y : 0}} 
