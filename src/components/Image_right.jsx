@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Image_left(props) {
+function Image_right(props) {
   return (
     <div className='container-1200'>
         <div className="row row-odd">
@@ -17,4 +17,4 @@ function Image_left(props) {
   )
 }
 
-export default Image_left
+export default Image_right

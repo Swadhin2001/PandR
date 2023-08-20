@@ -11,16 +11,10 @@ import banner_image2 from '../assets/The-choice-of-a-CA-firm-can-make-significan
 import banner_image3 from '../assets/Providing-support-you-deserve.jpg'
 import banner_image4 from '../assets/Professionalism-knowledge-trust-&-independence-define-us.jpg'
 import banner_image5 from '../assets/Fostering-knowledge-to-empower-our-clients.jpg'
-import Navbar from '@/components/Navbar'
-import logo_light from '@/assets/PandRLogoWhite.svg'
-import logo_dark from '@/assets/PandRLogo.svg'
-import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-
-  
 
   return (
     <div  >

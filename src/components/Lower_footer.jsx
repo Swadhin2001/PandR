@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function Comp5() {
   return (
-    <div className='container-1200 footer-lower p-0'>
+    <div className='container-1200 p-0'>
       <div className='row g-0 p-4'>
         <motion.div className="footer1 col-md-4 mx-4 px-4 footer1-mobile" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}>
