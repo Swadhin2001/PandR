@@ -9,7 +9,7 @@ function Form() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_lx93ifh', 'template_yllq8nq', form.current, 'Y3UVXcCoXI8VTQpSm')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
