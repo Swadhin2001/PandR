@@ -15,7 +15,7 @@ function Form() {
         setEmail("");
         setUserName("");
         setPhn("");
-        if (name != "" && email != "" && about != "" && phn != ""){
+        if (username != "" && email != "" && about != "" && phn != ""){
             alert ("Form Submitted Successfully!");
         }
         else{
