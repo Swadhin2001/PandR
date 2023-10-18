@@ -417,6 +417,13 @@ body{
   .about-mobile-space {
     padding: 40px 10px;
   }
+  .nav-elements {
+    padding-left: 40px;
+  }
+  .custom-nav-class{
+    width: 100%;
+    position: relative;
+  }
   .body-image-left {
     height: 300px;
     object-fit: cover;
