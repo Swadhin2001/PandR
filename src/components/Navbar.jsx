@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <>
-    <div className={`bg-${background} sticky-top d-flex justify-content-center`} >
+    <div className={`bg-${background} sticky-top d-flex justify-content-center navbar-mobile`} >
       <nav className="navbar navbar-expand-lg custom-nav-class ">
         <div className="container-1200 d-flex justify-content-between">
           <Link className="navbar-brand" href = "/">

@@ -525,9 +525,9 @@ button:active {
     padding: 40px 10px;
   }
 
-  /* .nav-elements {
-    padding-left: 0px;
-  } */
+  .nav-elements {
+    padding-left: 55px !important; 
+  }
 
   .custom-nav-class {
     width: 100%;
@@ -564,14 +564,14 @@ button:active {
     padding: 10px;
   }
 
-  ul.navbar-nav {
+  /* ul.navbar-nav {
     width: 100vw !important;
     left: -230px !important;
     position: relative;  
     background-color: white;
     margin-top: 4px !important;
     overflow-x: hidden !important;
-  }
+  } */
 
   .nav-link {
     color: black !important;
@@ -593,5 +593,14 @@ button:active {
   }
   .navbar-brand{
     padding-right: 0px;
+  }
+  .navbar-mobile{
+    position: relative;
+  }
+  .navbar-collapse{
+    position: absolute;
+    left: -18px;
+    background-color: white;
+    width: 100vw;
   }
 }
