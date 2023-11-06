@@ -3,7 +3,7 @@ import React from 'react'
 function Image_right(props) {
   return (
     <div className='container-1200'>
-        <div className="row row-odd">
+        <div className="row row-odd g-0">
             <div className="col-md-6 body-right-image-about about-mobile-space p-0" >
               <div className='image-about-right'>
                 <h4 className='pb-3 body-image-h4-right' >{props.heading}</h4>

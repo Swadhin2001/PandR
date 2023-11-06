@@ -5,6 +5,7 @@ import Image from 'next/image'
 import logo_light from '@/assets/PandRLogoWhite.svg'
 import logo_dark from '@/assets/PandRLogo.svg'
 import { useState } from 'react'
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 function Navbar() {
@@ -34,8 +35,8 @@ function Navbar() {
   return (
     <>
     <div className={`bg-${background} sticky-top d-flex justify-content-center`} >
-      <nav className="navbar navbar-expand-lg custom-nav-class sticky-top ">
-        <div className="container-1200 d-flex ">
+      <nav className="navbar navbar-expand-lg custom-nav-class ">
+        <div className="container-1200 d-flex justify-content-between">
           <Link className="navbar-brand" href = "/">
             <Image
               src={logo}
@@ -45,19 +46,20 @@ function Navbar() {
           </Link>
           <div className="nav-elements" >
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
+              {/* <span className="elementor-menu-toggle__icon--open eicon-menu-bar"></span> */}
+              <MenuIcon/>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item nav-padding">
-                  <Link className={`nav-link active text-${color} p-0 nav-item-menu`} aria-current="page" href='/about-us' style={{ "fontWeight": "600", "fontSize": "16px" }}>About Us</Link>
+                  <Link className="nav-link active p-0 nav-item-menu" aria-current="page" href='/about-us' style={{ "fontWeight": "600", "fontSize": "16px","color" : `${color}` }}>About Us</Link>
                 </li>
                 <li className="nav-item nav-padding">
-                  <Link className={`nav-link text-${color} p-0`} href="/our-team" style={{ "fontWeight": "600", "fontSize": "16px" }}>Our Team</Link>
+                  <Link className="nav-link p-0" href="/our-team" style={{ "fontWeight": "600", "fontSize": "16px","color" : `${color}` }}>Our Team</Link>
                 </li>
 
                 <li className="nav-item dropdown nav-padding">
-                  <a className= {`nav-link dropdown-toggle p-0 text-${color}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ "fontWeight": "600", "fontSize": "16px" }}>
+                  <a className= "nav-link dropdown-toggle p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ "fontWeight": "600", "fontSize": "16px","color" : `${color}` }}>
                     Services
                   </a>
                   <ul className="dropdown-menu rounded-0 dropdown-items p-0" >
@@ -68,10 +70,10 @@ function Navbar() {
                   </ul>
                 </li>
                 <li className="nav-item nav-padding">
-                  <Link className={`nav-link text-${color} p-0`} href="/work-with-us" style={{ "fontWeight": "600", "fontSize": "16px" }}>Work With Us</Link>
+                  <Link className="nav-link p-0" href="/work-with-us" style={{ "fontWeight": "600", "fontSize": "16px","color" : `${color}` }}>Work With Us</Link>
                 </li>
                 <li className="nav-item nav-padding-last">
-                  <Link className={`nav-link text-${color} p-0`} href="/contact-us" style={{ "fontWeight": "600", "fontSize": "16px" }}>Contact Us</Link>
+                  <Link className="nav-link p-0" href="/contact-us" style={{ "fontWeight": "600", "fontSize": "16px","color" : `${color}` }}>Contact Us</Link>
                 </li>
               </ul>
             </div>
