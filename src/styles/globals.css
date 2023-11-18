@@ -595,7 +595,7 @@ button:active {
     padding-right: 0px;
   }
   .navbar-mobile{
-    position: relative;
+    /* position: relative; */
   }
   .navbar-collapse{
     position: absolute;
